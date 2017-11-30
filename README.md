@@ -1,5 +1,6 @@
 This is quite simple implementation for RC4 stream encryption algorithm, so you will find a header file “RC4.h” which contains the RC4 function prototype, and implementation file which contains the implementation in “RC4.c”.
 for compiling you can have 3 options:
+	
 	1. Mac osx user ==> please use XCode, by creating new project, then add the 3 files to it, change the Running option to be from Terminal instead of XCode, from XCode you can find the path of the executable file, so you can call it and passing the paramters like the below:
 	
         pathToTheExecutable Encrypt ~/Desktop/plainText.txt ~/Desktop/key.txt ~/Desktop/Cipher.txt
